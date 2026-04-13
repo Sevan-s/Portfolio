@@ -90,7 +90,7 @@ function HomePageFirstSection({ showTyped, showTitle }: { showTyped: boolean, sh
                     <p className="mt-2">et je suis <span className="text-animatedText ">
                         {showTyped && (
                             <ReactTyped
-                                strings={["développeur Fullstack", "développeur web", "développeur mobile"]}
+                                strings={["développeur Full stack", "développeur web", "développeur mobile"]}
                                 typeSpeed={30}
                                 backSpeed={50}
                                 className="text-[#3480c7]"

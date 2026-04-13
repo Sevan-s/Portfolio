@@ -38,7 +38,7 @@ export function ProjectCard() {
                         </p>
                     </div>
                 </div>
-                <div className="w-[90%] border rounded-lg border-CardBg bg-CardBg xs:w-96 p-4">
+                <div className="w-[90%] border rounded-lg border-CardBg bg-CardBg xs:w-96 p-4 relative">
                     <div className="flex items-center justify-between mb-3">
                         <p className="text-lg font-bold">Hoori</p>
                         <img src={LogoHoori} alt="Logo Hoori" className="w-[100px] h-auto" />
@@ -48,6 +48,11 @@ export function ProjectCard() {
                         Objectif : automatiser la détection de Datura d'une parcelle agricole.
                         L'utilisateur programme ses drones et visualise les zones infectées par le Datura.
                     </p>
+                    <div className="flex justify-evenly mt-6 absolute w-[90%] bottom-4">
+                        <button className="border-2 rounded-lg flex flex-row justify-center items-center pl-2 pr-2 border-buttonBorderColor hover:bg-buttonBorderColor" onClick={() => window.open("https://github.com/Hoori2024/Website/tree/main/frontend/showcaseWebsites", "_blank")}>
+                            <p className="text-base p-2">Github</p>
+                        </button>
+                    </div>
                 </div>
                 <div className="w-[90%] border rounded-lg border-CardBg bg-CardBg xs:w-96 p-4 ">
                     <div className="flex items-center justify-between mb-3">
@@ -60,6 +65,14 @@ export function ProjectCard() {
                         avec un maximum d'autonomie (ajouter, modifier ou supprimer facilement des produits
                         de sa boutique en ligne). Mise en place d'un back-end en Express.js.
                     </p>
+                    <div className="flex justify-evenly mt-6">
+                        <button className="border-2 rounded-lg flex flex-row justify-center items-center pl-2 pr-2 border-buttonBorderColor hover:bg-buttonBorderColor" onClick={() => window.open("https://cousumouche.fr", "_blank")}>
+                            <p className="text-base p-2">Site web</p>
+                        </button>
+                        <button className="border-2 rounded-lg flex flex-row justify-center items-center pl-2 pr-2 border-buttonBorderColor hover:bg-buttonBorderColor" onClick={() => window.open("https://github.com/Sevan-s/CousuMouche", "_blank")}>
+                            <p className="text-base p-2">Github</p>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
