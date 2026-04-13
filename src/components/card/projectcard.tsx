@@ -54,13 +54,16 @@ export function ProjectCard() {
                         </button>
                     </div>
                 </div>
-                <div className="w-[90%] border rounded-lg border-CardBg bg-CardBg xs:w-96 p-4 ">
-                    <div className="flex items-center justify-between mb-3">
+                <div className="w-[90%] border rounded-lg border-CardBg bg-CardBg xs:w-96 p-4 relative">
+                    <div className="flex justify-between absolute w-[90%]">
                         <p className="text-lg font-bold">Cousu Mouche</p>
                         <img src={CousuMouche} alt="Logo Cousu Mouche" className="w-[80px] h-auto" />
                     </div>
-                    <p className="p-2">
-                        Site E-Commerce réalisé pour une artisane couturière. Mise en place d'une authentification,
+                    <p className="p-2 mt-10 w-[90%]">
+                        <span className='flex w-[80%]'>
+                            Site E-Commerce réalisé pour une artisane couturière.
+                        </span>
+                        Mise en place d'une authentification,
                         d'un dashboard administrateur afin que l'utilisatrice puisse faire évoluer son projet
                         avec un maximum d'autonomie (ajouter, modifier ou supprimer facilement des produits
                         de sa boutique en ligne). Mise en place d'un back-end en Express.js.
